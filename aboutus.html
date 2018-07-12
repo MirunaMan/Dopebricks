@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<style type="text/css">
+.logo{
+	height:40px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+body{
+	background-image:url("aboutus.jpg");
+	background-size:cover;
+	margin:0px 0px 0px 0px;
+	font-family:"Century Gothic";
+}
+
+header{
+	height:60px;
+	width:100%;
+	background: linear-gradient(135deg, rgba(18,20,73,1) 0%,rgba(22,90,158,1) 100%);
+}
+
+.topnav{
+	margin-left:30%;
+	margin-top:-45px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    padding: 1% 3%;
+    text-decoration: none;
+	text-transform:uppercase;
+    font-size: 18px;
+	color:#C6D8F4;
+}
+
+.topnav a:hover {
+    background-color: #ffdb4d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #3B6B9B;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-right:4%;
+	margin-top:0.5%;
+    font-size: 16px;
+	background-color:lightgrey;
+	opacity:0.8;
+	
+}
+.searchimg{
+	height:40px;
+	width:40px;
+	margin-left:10%;
+}
+
+.maindiv{
+
+	background-color:white;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+	height:550px;
+	width:750px;
+	position:absolute;
+	left:35%;
+	top:55%;
+	transform:translate(-25%, -55%);
+	padding:30px;
+	font-size:17px;
+	
+}
+
+h1{
+	text-align:center;
+	color:#800000;
+	text-transform:uppercase;
+	margin-top:-10px;
+}
+
+.maindiv img{
+	height:170px;
+	width:250px;
+	padding:10px;
+}
+
+.maindiv p{
+	text-indent:30px;
+}
+
+.maindiv span{
+	color:red;
+
+}
+
+#p:first-letter{
+	color:red;
+	font-size:48px;
+}
+
+article{
+	background-color:#ecf2f9;
+	float:right;
+	position:fixed;
+	top:25%;
+	left:80%;
+	height:370px;
+	width:210px;
+	color: #b30000;
+	font-size:12px;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+article a{
+	text-decoration:none;
+	color:#00264d;
+}
+
+article a:hover{
+	color:#ffcc00;
+}
+
+ul span{
+	color:#ff9900;
+	font-weight:bold;
+	font-size:16px;
+
+}
+article a:active{
+	color:#e63900;
+}
+
+
+
+.footer{
+	background: linear-gradient(135deg, rgba(33,59,119,1) 2%,rgba(26,41,84,1) 45%,rgba(33,60,119,1) 100%); 
+	color:white;
+	text-align:center;
+	height:30px;
+	font-size:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+
+}
+
+
+
+
+</style>
+
+
+</head>
+
+<body onload="fct1()">
+
+<header>
+<img src="logo.png" class="logo">
+
+
+<div class="topnav">
+<a href="aboutus.html" target="_blank" class="active">About</a>
+<a href="index.html" target="_blank" >Home</a>
+<a href="news.html" target="_blank">News</a>
+<a href="gallery.html" target="_blank">Gallery</a>
+<a href="contact.html" target="_blank">Contact</a>
+<img src="https://cdn3.iconfinder.com/data/icons/flat-design-hands-icons/128/20-512.png" class="searchimg"><input type="text" placeholder="Look it up...">
+</div>
+
+<div class="maindiv">
+<h1>About Us</h1>
+<p id="hello"></p>
+<p id="p"><img src="aboutus.png" align="left">
+Welcome to <span>Dope Bricks</span>, the universe where you will find LEGO news, contests and galleries.
+ I am Miruna Manoila and I was corupted by my SO to become addicted to LEGO. He is a massive
+ fan and has a rather huge collection, if you ask him, it is insignificant to its full potential. 
+ At first, I helped him with the dirty work, a.k.a. sorting the LEGO, but now, here I am handling
+ the big stuff, <span>MY OWN LEGO FAN SITE</span>. Yes, we are technically grown-ups, but proud to call
+ ourselves <abbr title="Adult-Fans-of-LEGO">AFOL</abbr>.</p>
+<p>The site was born in 2018, due to the undying passion and dire need to keep up with LEGO
+ news and awesome, worldwide LEGO work and now we get to share all this info with you.
+ We try to offer the followers the latest LEGO news available. </p>
+ 
+ <p>More than that, we have <span>contests</span> monthly,
+ where you can win all sorts of cool lego stuff. You can submit it @ <strong>Contact</strong> section and we promise
+ to review it with the upmost attention.</p>
+<p>We hope you enjoy every visit on <span>Dope Bricks</span> and we shall treasure you forever!</p>
+</div>
+
+
+<article>
+<h3>Check out your fave</h3>
+<ul><span>Resources</span>
+<li><a href="https://www.brickpicker.com/" target="_blank">BrickPicker</a></li>
+<li><a href="https://www.brickrss.com/" target="_blank">Brick RSS</a></li>
+<li><a href="http://en.brickimedia.org/wiki/Main_Page" target="_blank">Brickpedia</a></li>
+</ul>
+
+<ul><span>Shops</span>
+<li><a href="https://www.bricklink.com/v2/main.page" target="_blank">Bricklink</a></li>
+
+<li><a href="https://www.brickwarriors.com/" target="_blank">Brick Warriors</a></li>
+<li><a href="http://www.brickarms.com/index.php" target="_blank">BrickArms</a></li>
+<li><a href="https://bricksandminifigs.com/" target="_blank">Bricks & Minifigs</a></li>
+<li><a href="https://citizenbrick.com/" target="_blank">Citizen Brick</a></li>
+
+
+</ul>
+
+<ul><span>YouTubers</span>
+<li><a href="https://www.youtube.com/user/BeyondTheBrickTV" target="_blank">Beyond the Brick</a></li>
+<li><a href="https://www.youtube.com/user/BrickTsar" target="_blank">Brick Tsar</a></li>
+<li><a href="https://www.youtube.com/user/Lego4Chris" target="_blank">Lego4Chris</a></li>
+<li><a href="https://www.youtube.com/user/legoboy12345678" target="_blank">Solid Brick Studios</a></li>
+<li><a href="https://www.youtube.com/channel/UC87iO9bY88dZKJBZy54epVQ" target="_blank">Legg Animation</a></li>
+
+</ul>
+</article>
+
+
+<div class="footer">
+<p>&copy Miruna Manoila,2018 * All Rights Reserved</p>
+</div>
+
+<script type="text/javascript">
+
+function fct1(){
+var x=window.prompt("What is your name, legohead?");
+var y=document.getElementById("hello");
+var z=document.createTextNode("Nice to see you, ");
+var a=document.createTextNode(x);
+y.appendChild(z);
+y.appendChild(a);
+y.style.color="red";
+y.style.fontStyle="italic";
+}
+
+
+
+</script>
+
+</body>
+</html>

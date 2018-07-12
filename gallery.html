@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<style type="text/css">
+
+.logo{
+	height:40px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+body{
+	background-image:url("lego.jpg");
+	background-size:cover;
+	margin:0px 0px 0px 0px;
+	font-family:"Century Gothic";
+}
+
+header{
+	height:60px;
+	width:100%;
+	background: linear-gradient(135deg, rgba(18,20,73,1) 0%,rgba(22,90,158,1) 100%);
+}
+
+.topnav{
+	margin-left:30%;
+	margin-top:-45px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    padding: 1% 3%;
+    text-decoration: none;
+	text-transform:uppercase;
+    font-size: 18px;
+	color:#C6D8F4;
+}
+
+.topnav a:hover {
+    background-color: #ffdb4d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #3B6B9B;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-right:4%;
+	margin-top:0.5%;
+    font-size: 16px;
+	background-color:lightgrey;
+	opacity:0.8;
+	
+}
+.searchimg{
+	height:40px;
+	width:40px;
+	margin-left:10%;
+}
+
+
+article{
+	background-color:#ecf2f9;
+	float:right;
+	position:fixed;
+	top:25%;
+	left:80%;
+	height:370px;
+	width:210px;
+	color: #b30000;
+	font-size:12px;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+article a{
+	text-decoration:none;
+	color:#00264d;
+}
+
+article a:hover{
+	color:#ffcc00;
+}
+
+ul span{
+	color:#ff9900;
+	font-weight:bold;
+	font-size:16px;
+
+}
+article a:active{
+	color:#e63900;
+}
+
+h3{
+	text-align:center;
+	font-size:19px;
+}
+
+.footer{
+	background: linear-gradient(135deg, rgba(33,59,119,1) 2%,rgba(26,41,84,1) 45%,rgba(33,60,119,1) 100%); 
+	color:white;
+	text-align:center;
+	height:30px;
+	font-size:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+
+}
+
+.titlu1{
+	background-color:#121449;
+	height:30px;
+	width:250px;
+	color:white;
+	font-size:19px;
+	font-weight:bold;
+	
+}
+
+
+.titlu2{
+	background-color:#121449;
+	height:30px;
+	width:100px;
+	color:white;
+	font-size:14px;
+	font-style:italic;
+	}
+
+.titlu1 p, .titlu2 p{
+	padding-top:5px;
+	padding-left:10px;	
+	
+}
+
+.contain{
+	padding-top:100px;
+
+}
+
+.table{
+	display:table;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	height:600px;
+	width:900px;
+	border-spacing:40px;
+
+}
+.row1,.row2{
+	display:table-row;
+}
+.cell1,.cell2,.cell3,.cell4{
+	display:table-cell;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+	cursor:pointer;
+}
+
+.cell1{
+	background-image:url("gallery1.jpg");
+	background-size:cover;
+}
+
+.cell2{
+	background-image:url("https://c1.staticflickr.com/9/8528/8490895753_7d9fb2f97b_b.jpg");
+	background-size:cover;
+}
+
+.cell3{
+	background-image:url("https://thumbs.dreamstime.com/b/lego-construction-each-year-one-largest-fans-world-takes-place-jaarbeurs-utrecht-netherlands-exhibition-48008155.jpg");
+	background-size:cover;
+}
+
+.cell4{
+	background-image:url("http://oboyorganic.com/wp-content/uploads/2015/02/lego1.jpg");
+	background-size:cover;
+}
+
+.sidefig{
+	float:left;
+	width:200px;
+	height:400px;
+	margin-top:10%;
+
+}
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo">
+
+
+<div class="topnav">
+<a href="aboutus.html" target="_blank">About</a>
+<a href="index.html" target="_blank">Home</a>
+<a href="news.html" target="_blank">News</a>
+<a href="gallery.html" target="_blank"class="active">Gallery</a>
+<a href="contact.html" target="_blank">Contact</a>
+<img src="https://cdn3.iconfinder.com/data/icons/flat-design-hands-icons/128/20-512.png" class="searchimg"><input type="text" placeholder="Look it up...">
+</div>
+
+</header>
+
+<img src="gallery.png" class="sidefig">
+
+<main>
+
+<div class="table">
+
+<div class="row1">
+
+<div class="cell1"  onclick="window.open('galerie1.html')">
+
+<div class="contain">
+<div class="titlu1">
+<p>STARWARS MOC Exhibit</p>
+</div>
+
+<div class="titlu2">
+<p>20.06.2018</p>
+</div>
+</div>
+</div>
+
+<div class="cell2" onclick="window.open('galerie2.html')">
+
+<div class="contain">
+<div class="titlu1">
+
+<p>Fantasy MOC Exhibition</p>
+</div>
+
+<div class="titlu2">
+<p>05.04.2018</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="row2">
+
+<div class="cell3" onclick="window.open('galerie3.html')">
+<div class="contain">
+<div class="titlu1">
+<p>LEGO Architecture Show</p>
+</div>
+
+<div class="titlu2">
+<p>21.03.2018</p>
+</div>
+</div>
+</div>
+
+<div class="cell4" onclick="window.open('galerie4.html')">
+
+<div class="contain">
+<div class="titlu1">
+
+<p>LEGO Storage Ideas</p>
+</div>
+
+<div class="titlu2">
+<p>07.02.2018</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</main>
+
+<article>
+<h3>Check out your fave</h3>
+<ul><span>Resources</span>
+	<li><a href="https://www.brickpicker.com/" target="_blank">BrickPicker</a></li>
+	<li><a href="https://www.brickrss.com/" target="_blank">Brick RSS</a></li>
+	<li><a href="http://en.brickimedia.org/wiki/Main_Page" target="_blank">Brickpedia</a></li>
+</ul>
+
+<ul><span>Shops</span>
+	<li><a href="https://www.bricklink.com/v2/main.page" target="_blank">Bricklink</a></li>
+	<li><a href="https://www.brickwarriors.com/" target="_blank">Brick Warriors</a></li>
+	<li><a href="http://www.brickarms.com/index.php" target="_blank">BrickArms</a></li>
+	<li><a href="https://bricksandminifigs.com/" target="_blank">Bricks & Minifigs</a></li>
+	<li><a href="https://citizenbrick.com/" target="_blank">Citizen Brick</a></li>
+
+</ul>
+
+<ul><span>YouTubers</span>
+	<li><a href="https://www.youtube.com/user/BeyondTheBrickTV" target="_blank">Beyond the Brick</a></li>
+	<li><a href="https://www.youtube.com/user/BrickTsar" target="_blank">Brick Tsar</a></li>
+	<li><a href="https://www.youtube.com/user/Lego4Chris" target="_blank">Lego4Chris</a></li>
+	<li><a href="https://www.youtube.com/user/legoboy12345678" target="_blank">Solid Brick Studios</a></li>
+	<li><a href="https://www.youtube.com/channel/UC87iO9bY88dZKJBZy54epVQ" target="_blank">Legg Animations</a></li>
+</ul>
+</article>
+
+<div class="footer">
+<p>&copy Miruna Manoila,2018 * All Rights Reserved</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<style type="text/css">
+.logo{
+	height:40px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+body{
+	background-image:url("blue.jpg");
+	background-size:cover;
+	margin:0px 0px 0px 0px;
+	font-family:"Century Gothic";
+}
+
+header{
+	height:60px;
+	width:100%;
+	background: linear-gradient(135deg, rgba(18,20,73,1) 0%,rgba(22,90,158,1) 100%);
+}
+
+.topnav{
+	margin-left:30%;
+	margin-top:-45px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    padding: 1% 3%;
+    text-decoration: none;
+	text-transform:uppercase;
+    font-size: 18px;
+	color:#C6D8F4;
+}
+
+.topnav a:hover {
+    background-color: #ffdb4d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #3B6B9B;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-right:4%;
+	margin-top:0.5%;
+    font-size: 16px;
+	background-color:lightgrey;
+	opacity:0.8;
+	
+}
+.searchimg{
+	height:40px;
+	width:40px;
+	margin-left:10%;
+}
+
+article{
+	background-color:#ecf2f9;
+	float:right;
+	position:fixed;
+	top:25%;
+	left:80%;
+	height:370px;
+	width:210px;
+	color: #b30000;
+	font-size:12px;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+article a{
+	text-decoration:none;
+	color:#00264d;
+}
+
+article a:hover{
+	color:#ffcc00;
+}
+
+ul span{
+	color:#ff9900;
+	font-weight:bold;
+	font-size:16px;
+
+}
+article a:active{
+	color:#e63900;
+}
+h3{
+	text-align:center;
+	font-size:19px;
+}
+
+
+.footer{
+	background: linear-gradient(135deg, rgba(33,59,119,1) 2%,rgba(26,41,84,1) 45%,rgba(33,60,119,1) 100%); 
+	color:white;
+	text-align:center;
+	height:30px;
+	font-size:10px;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+
+}
+
+button{
+	border:none;
+	background: linear-gradient(45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%);
+	width:90px;
+	height:40px;
+	border-radius:5%;
+	font-size:16px;
+	font-weight:bold;
+	float:right;
+	margin-right:3%;
+}
+
+button a{
+	text-decoration:none;
+	color:white;
+}
+.maindiv{
+
+	margin-left:14%;
+	margin-top:2%;
+	width:900px;
+	background-color:white;
+	padding:20px;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+.story{
+	width:750px;
+	background-color:white;
+	margin-left:17%;
+	margin-bottom:50px;
+	overflow:hidden;
+}
+
+
+.story img{
+	width:160px;
+	height:100px;
+	margin-left:400px;
+	margin-bottom:-27px;
+
+}
+
+
+
+.divstoryone{
+	background-color:white;
+	width:600px;
+	height:250px;
+	background-image:url("https://i.ytimg.com/vi/s9oYk4g47MM/maxresdefault.jpg");
+	background-size:cover;
+	margin-top:20px;
+	border:2px solid navy;
+	border-radius:2%;
+}
+
+.divstorytwo{
+	background-color:white;
+	width:600px;
+	height:250px;
+	background-image:url("https://i.ytimg.com/vi/rgiY1qy3Koo/maxresdefault.jpg");
+	background-size:cover;
+	margin-top:20px;
+	border:2px solid navy;
+	border-radius:2%;
+}
+
+.divstorythree{
+	background-color:white;
+	width:600px;
+	height:250px;
+	background-image:url("https://i.ytimg.com/vi/8n10eN8U9p4/maxresdefault.jpg");
+	background-size:600px 300px;
+	margin-top:20px;
+	border:2px solid navy;
+	border-radius:2%;
+}
+
+.divstory1{
+	background-color:#121449;
+	height:30px;
+	width:350px;
+	color:white;
+	font-size:19px;
+	font-weight:bold;
+	
+}
+
+
+.divstory2{
+	background-color:#121449;
+	height:30px;
+	width:300px;
+	color:white;
+	font-size:14px;
+	font-style:italic;
+	}
+	
+.contain{
+	padding-top:100px;
+
+}
+	
+.divstory1 p, .divstory2 p{
+	padding-top:5px;
+	padding-left:10px;	
+	
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo">
+
+
+<div class="topnav">
+<a href="aboutus.html" target="_blank" >About</a>
+<a href="index.html" target="_blank" >Home</a>
+<a href="news.html" target="_blank" class="active">News</a>
+<a href="gallery.html" target="_blank">Gallery</a>
+<a href="contact.html" target="_blank">Contact</a>
+<img src="https://cdn3.iconfinder.com/data/icons/flat-design-hands-icons/128/20-512.png" class="searchimg"><input type="text" placeholder="Look it up...">
+</div>
+
+<div class="maindiv">
+
+
+
+<div class="story">
+
+<img src="news.png"> <br>
+
+<div class="divstoryone">
+<div class="contain">
+<div class="divstory1">
+<p>FIRST SUSTAINABLE LEGO</p>
+</div>
+
+<div class="divstory2">
+<p>BRICKS WILL BE LAUNCHED in 2018</p>
+</div>
+</div>
+
+<button id="submit" onmouseover="fct3()" onmouseout="fct2()" type="button"><a href="stire3.html">Read it</a></button>
+</div>
+
+
+
+</div>
+
+<div class="story">
+<p></p>
+<img src="news.png"><br>
+
+<div class="divstorytwo">
+
+<div class="contain">
+<div class="divstory1">
+<p>MORE THAN 100 NEW SETS</p>
+</div>
+
+<div class="divstory2">
+<p>FOR 2018'S HOLIDAY SEASON</p>
+</div>
+</div>
+
+
+<button id="submit1" onmouseover="fct5()" onmouseout="fct4()" type="button"><a href="stire1.html">Read it</a></button>
+</div>
+
+</div>
+
+
+
+<div class="story">
+<p></p>
+<img src="news.png"><br>
+
+<div class="divstorythree">
+
+<div class="contain">
+<div class="divstory1">
+<p>LEGO WORLD OF HARRY POTTER</p>
+</div>
+
+<div class="divstory2">
+<p>OFFICIAL SET IMAGES RELEASED</p>
+</div>
+</div>
+
+<button  type="button" id="submit2" onmouseover="fct7()" onmouseout="fct6()"><a href="stire2.html">Read it</a></button>
+</div>
+
+</div>
+
+</div>
+
+
+
+<article>
+<h3>Check out your fave</h3>
+<ul><span>Resources</span>
+<li><a href="https://www.brickpicker.com/" target="_blank">BrickPicker</a></li>
+<li><a href="https://www.brickrss.com/" target="_blank">Brick RSS</a></li>
+<li><a href="http://en.brickimedia.org/wiki/Main_Page" target="_blank">Brickpedia</a></li>
+</ul>
+
+<ul><span>Shops</span>
+<li><a href="https://www.bricklink.com/v2/main.page" target="_blank">Bricklink</a></li>
+
+<li><a href="https://www.brickwarriors.com/" target="_blank">Brick Warriors</a></li>
+<li><a href="http://www.brickarms.com/index.php" target="_blank">BrickArms</a></li>
+<li><a href="https://bricksandminifigs.com/" target="_blank">Bricks & Minifigs</a></li>
+<li><a href="https://citizenbrick.com/" target="_blank">Citizen Brick</a></li>
+
+
+</ul>
+
+<ul><span>YouTubers</span>
+<li><a href="https://www.youtube.com/user/BeyondTheBrickTV" target="_blank">Beyond the Brick</a></li>
+<li><a href="https://www.youtube.com/user/BrickTsar" target="_blank">Brick Tsar</a></li>
+<li><a href="https://www.youtube.com/user/Lego4Chris" target="_blank">Lego4Chris</a></li>
+<li><a href="https://www.youtube.com/user/legoboy12345678" target="_blank">Solid Brick Studios</a></li>
+<li><a href="https://www.youtube.com/channel/UC87iO9bY88dZKJBZy54epVQ" target="_blank">Legg Animations</a></li>
+
+</ul>
+</article>
+
+
+<div class="footer">
+<p>&copy Miruna Manoila,2018 * All Rights Reserved</p>
+</div>
+
+<script type="text/javascript">
+
+function fct2(){
+var x=document.getElementById("submit");
+x.style.border="none";
+x.style.background="linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+function fct3(){
+var x=document.getElementById("submit");
+x.style.border="none";
+x.style.background=" linear-gradient(135deg, rgba(247,215,56,1) 0%,rgba(254,191,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+function fct4(){
+var x=document.getElementById("submit1");
+x.style.border="none";
+x.style.background="linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+function fct5(){
+var x=document.getElementById("submit1");
+x.style.border="none";
+x.style.background=" linear-gradient(135deg, rgba(247,215,56,1) 0%,rgba(254,191,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+function fct6(){
+var x=document.getElementById("submit2");
+x.style.border="none";
+x.style.background="linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+function fct7(){
+var x=document.getElementById("submit2");
+x.style.border="none";
+x.style.background=" linear-gradient(135deg, rgba(247,215,56,1) 0%,rgba(254,191,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+</script>
+</body>
+</html>

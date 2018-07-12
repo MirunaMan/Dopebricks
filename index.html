@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Luckiest+Guy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Luckiest+Guy|Press+Start+2P" rel="stylesheet">
+
+<style type="text/css">
+
+.logo{
+	height:40px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+body{
+	background-image:url("Board.jpg");
+	background-size:contain;
+	margin:0px 0px 0px 0px;
+	font-family:"Century Gothic";
+	filter: saturate(80%);
+}
+
+header{
+	height:60px;
+	width:100%;
+	background: linear-gradient(135deg, rgba(18,20,73,1) 0%,rgba(22,90,158,1) 100%);
+}
+
+.topnav{
+	margin-left:30%;
+	margin-top:-45px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    padding: 1% 3%;
+    text-decoration: none;
+	text-transform:uppercase;
+    font-size: 18px;
+	color:#C6D8F4;
+}
+
+.topnav a:hover {
+    background-color: #ffdb4d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #3B6B9B;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-right:4%;
+	margin-top:0.5%;
+    font-size: 16px;
+	background-color:lightgrey;
+	opacity:0.8;
+	
+}
+.searchimg{
+	height:40px;
+	width:40px;
+	margin-left:10%;
+}
+
+.banner{
+	height:180px;
+	width:1300px;
+	margin-top:15px;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%);
+	background-image:url("banner1.png");
+	background-size:cover;
+}
+
+.title{
+	color:white;
+	font-size:50px;
+	font-family:"Press Start 2P";
+	text-align:center;
+	line-height:30px;
+	margin-left:5%;
+
+	
+
+}
+
+.titlespan{
+	color:#121449;
+	font-size:12px;
+	
+}
+
+aside{
+	height:370px;
+	width:250px;
+	background-image:url("https://i.pinimg.com/originals/83/19/a4/8319a4361142ad80e2d7357daa9155c5.jpg");
+	background-size:contain;
+	margin-top:13.5%;
+	margin-left:7.5%;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+
+}
+
+.divaside1{
+	background-color:#121449;
+	filter:opacity(70%);
+	height:30px;
+	width:180px;
+}
+
+.divaside1 p, .divaside2 p{
+	padding-top:4px;
+	padding-left:10px;
+	text-decoration:none;
+	
+}
+
+.divaside1 a, .divaside2 a{
+	text-decoration:none;
+	color:white;
+}
+
+.divaside1 a:hover{
+	color:navy;
+}
+
+.divaside1:hover{
+	background-color:#C9E0E5;
+}
+.divaside2{
+	background-color:#121449;
+	filter:opacity(80%);
+	height:30px;
+	width:230px;
+	color:white;
+}
+
+.divaside2 a:hover{
+	color:navy;
+}
+
+.divaside2:hover{
+	background-color:#C9E0E5;
+}
+.divaside{
+	padding-top:200px;
+	font-weight:bold;
+	text-transform:capitalize;
+	font-size:14px;
+}
+
+
+
+
+
+button{
+	border:none;
+	background: linear-gradient(45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%);
+	width:90px;
+	height:40px;
+	border-radius:5%;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+button a{
+	text-decoration:none;
+	color:black;
+}
+
+.over{
+	position:absolute;
+	bottom:200px;
+	z-index: 999;
+}
+
+
+
+.over p{
+	background-color:#10296b;
+	filter:opacity(80%);
+	height:30px;
+	width:200px;
+	color:white;
+	padding-top:6px;
+	padding-left:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+h2{
+	text-shadow:5px 5px 8px black;
+	margin-left:20px;
+}
+
+
+
+article{
+	background-color:#ecf2f9;
+	float:right;
+	margin-top:-24%;
+	margin-right:-970px;
+	height:370px;
+	width:210px;
+	color: #b30000;
+	font-size:12px;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+article a{
+	text-decoration:none;
+	color:#00264d;
+}
+
+article a:hover{
+	color:#ffcc00;
+}
+
+ul span{
+	color:#ff9900;
+	font-weight:bold;
+	font-size:16px;
+
+}
+article a:active{
+	color:#e63900;
+}
+
+h3{
+	text-align:center;
+	font-size:19px;
+}
+
+.footer{
+	background: linear-gradient(135deg, rgba(33,59,119,1) 2%,rgba(26,41,84,1) 45%,rgba(33,60,119,1) 100%); 
+	color:white;
+	text-align:center;
+	height:30px;
+	font-size:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+
+
+}
+
+main{
+	width:680px;
+	height:370px;
+	float:right;
+	margin-top:-24%;
+	margin-right:27%;
+	color:white;
+	box-shadow: 16px 10px 74px -8px rgba(0,0,0,0.75);
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width:680px;
+  height:370px;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo">
+
+
+<div class="topnav">
+<a href="aboutus.html" target="_blank">About</a>
+<a href="index.html" target="_blank" class="active">Home</a>
+<a href="news.html" target="_blank">News</a>
+<a href="gallery.html" target="_blank">Gallery</a>
+<a href="contact.html" target="_blank">Contact</a>
+<img src="https://cdn3.iconfinder.com/data/icons/flat-design-hands-icons/128/20-512.png" class="searchimg"><input type="text" placeholder="Look it up...">
+</div>
+
+<div class="banner">
+
+<p class="title"><br>Dope Bricks <br><span class="titlespan">The place where brickheads unite</span></p>
+
+</div>
+
+
+</header>
+
+<aside>
+
+<div class="divaside">
+
+<div class="divaside1">
+<a href="concurs.html"><p>Contest of the month</p></a>
+</div>
+
+<div class="divaside2">
+
+<a href="concurs.html"><p>Fantasyland MOC Competition</p></a>
+</div>
+</div>
+
+</aside>
+
+<main>
+
+
+
+
+
+ <div> 
+ <div class="over">
+	<p>POPULAR</p>
+	<h2>STARWARS MOC GALLERY</h2>
+	<button type="button" id="submit" onmouseover="fct3()" onmouseout="fct2()"><a href="galerie1.html" target="_blank">See More</a></button>
+</div>
+ <ul class="rslides">
+   <li><img src="starwars.jpg"> </li>
+   <li><img src="https://c1.staticflickr.com/5/4720/28169812149_b3df88d880_b.jpg"></li>
+   <li><img src="https://c1.staticflickr.com/9/8818/17319881885_3eb99c2e53_b.jpg"></li>
+	<li><img src="https://i.pinimg.com/originals/d8/c1/4e/d8c14eae9c271a96ee3aedb143b6c3cb.jpg"></li>
+  </ul>  
+  
+ </div> 
+
+
+</main>
+
+<article>
+<h3>Check out your fave</h3>
+<ul><span>Resources</span>
+<li><a href="https://www.brickpicker.com/" target="_blank">BrickPicker</a></li>
+<li><a href="https://www.brickrss.com/" target="_blank">Brick RSS</a></li>
+<li><a href="http://en.brickimedia.org/wiki/Main_Page" target="_blank">Brickpedia</a></li>
+</ul>
+
+<ul><span>Shops</span>
+<li><a href="https://www.bricklink.com/v2/main.page" target="_blank">Bricklink</a></li>
+
+<li><a href="https://www.brickwarriors.com/" target="_blank">Brick Warriors</a></li>
+<li><a href="http://www.brickarms.com/index.php" target="_blank">BrickArms</a></li>
+<li><a href="https://bricksandminifigs.com/" target="_blank">Bricks & Minifigs</a></li>
+<li><a href="https://citizenbrick.com/" target="_blank">Citizen Brick</a></li>
+
+
+</ul>
+
+<ul><span>YouTubers</span>
+<li><a href="https://www.youtube.com/user/BeyondTheBrickTV" target="_blank">Beyond the Brick</a></li>
+<li><a href="https://www.youtube.com/user/BrickTsar" target="_blank">Brick Tsar</a></li>
+<li><a href="https://www.youtube.com/user/Lego4Chris" target="_blank">Lego4Chris</a></li>
+<li><a href="https://www.youtube.com/user/legoboy12345678" target="_blank">Solid Brick Studios</a></li>
+<li><a href="https://www.youtube.com/channel/UC87iO9bY88dZKJBZy54epVQ" target="_blank">Legg Animations</a></li>
+</ul>
+</article>
+
+<div class="footer">
+<p>&copy Miruna Manoila,2018 * All Rights Reserved</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+
+<script type="text/javascript">
+
+function fct2(){
+var x=document.getElementById("submit");
+x.style.border="none";
+x.style.background="linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+
+
+}
+
+function fct3(){
+var x=document.getElementById("submit");
+x.style.border="none";
+x.style.background=" linear-gradient(135deg, rgba(247,215,56,1) 0%,rgba(254,191,4,1) 100%)";
+x.style.width="90px";
+x.style.height="40px";
+x.style.borderRadius="10%";
+x.style.fontSize="16px";
+x.style.fontWeight="bold";
+}
+
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+
+$(".rslides").responsiveSlides({
+  auto: true,
+  speed: 500, 
+  timeout: 4000,
+
+});  
+
+</script>
+</body>
+</html>
